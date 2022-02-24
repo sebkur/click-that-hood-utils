@@ -1,0 +1,7 @@
+#!/bin/bash
+
+DIR=$(dirname $0)
+CMD="$DIR/click-that-hood-utils.sh"
+CLASS="de.topobyte.click.that.hood.ClickThatHoodUtils"
+
+exec "$CMD" "$CLASS" "$@"
